@@ -2,7 +2,7 @@
 to the role of the lambda, or explicitly mention the access key/id in the code. Both the options are
 below. I think role is used in aws env and access key/id is iused while testing locally """
 
-import pandas as pd
+# import pandas as pd
 
 def lambda_handler(event, context):
 
