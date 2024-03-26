@@ -7,3 +7,5 @@ below. I think role is used in aws env and access key/id is iused while testing 
 def transform_data():
 
     print("In generic_client2")
+
+transform_data()

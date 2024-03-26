@@ -3,7 +3,9 @@ to the role of the lambda, or explicitly mention the access key/id in the code. 
 below. I think role is used in aws env and access key/id is iused while testing locally """
 
 # import pandas as pd
+import sys
 
 def transform_data():
-
     print("In generic_client1")
+
+transform_data()
