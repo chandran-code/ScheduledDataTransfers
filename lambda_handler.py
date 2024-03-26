@@ -17,4 +17,4 @@ def lambda_handler(event, context):
         'body': 'Messages processed successfully'
     }
 
-lambda_handler(None, None)
+#lambda_handler(None, None)
