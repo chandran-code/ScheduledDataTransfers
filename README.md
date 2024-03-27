@@ -1,5 +1,4 @@
 #### ScheduledDataTransfers ####
-ScheduledDataTransfers
 
 A template to run an AWS Lambda function for data ingestion from multiple sources.
 Simply replace the codes in generic_ABC.py and generic_DEF.py with the actual data
