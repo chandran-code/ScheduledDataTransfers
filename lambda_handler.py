@@ -40,4 +40,4 @@ def lambda_handler(event, context):
         'body': 'Script executed successfully'
     }
 
-lambda_handler({"script":"generic_client1"},"")
+lambda_handler({"script":"generic_DEF"},"")
