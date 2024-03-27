@@ -4,6 +4,7 @@ below. I think role is used in aws env and access key/id is iused while testing 
 
 # import pandas as pd
 import sys
+import configparser
 """ import generic_client1 as gc1
 import generic_client2 as gc2
 
@@ -39,4 +40,4 @@ def lambda_handler(event, context):
         'body': 'Script executed successfully'
     }
 
-lambda_handler({"script":"generic_client2"},"")
+lambda_handler({"script":"generic_client1"},"")

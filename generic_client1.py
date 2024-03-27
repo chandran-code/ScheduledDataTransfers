@@ -4,8 +4,14 @@ below. I think role is used in aws env and access key/id is iused while testing 
 
 # import pandas as pd
 import sys
+# import configparser
 
 def transform_data():
     print("In generic_client1")
+    config = configparser.ConfigParser()
+    config.read('config.ini')
+    value = config['database']['host']
+    print("Value is")
+    print(value)
 
 transform_data()
