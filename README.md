@@ -1,10 +1,14 @@
-#### ScheduledDataTransfers
+#### ScheduledDataTransfers ####
 ScheduledDataTransfers
 
-* Learn how to run lambda on docker container and deploy Base image on ECR and use on Lambda 
+A template to run an AWS Lambda function for data ingestion from multiple sources.
+Simply replace the codes in generic_ABC.py and generic_DEF.py with the actual data
+transfer code written in FTP/SFTP/SQL pull etc.
+
+The name of the sub-script is passed as a parameter into the main script lambda_handler.py.In an AWS environment these parameters can be passed from Event Bridge scheduler.
 
 
-#### Commands 
+#### Commands to test locally ####
 ```
 docker build -t scheduleddatatransfers .
 
