@@ -5,7 +5,7 @@ A template to run an AWS Lambda function for data ingestion from multiple source
 Simply replace the codes in generic_ABC.py and generic_DEF.py with the actual data
 transfer code written in FTP/SFTP/SQL pull etc.
 
-The name of the sub-script is passed as a parameter into the main script lambda_handler.py.In an AWS environment these parameters can be passed from Event Bridge scheduler.
+The name of the sub-script is passed as a parameter into the main script lambda_handler.py.In an AWS environment these parameters can be passed using CloudWatch Events.
 
 
 #### Commands to test locally ####
